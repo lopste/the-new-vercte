@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "dist",
+        "jsx": "react",
+        "strict": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowArbitraryExtensions": true,
+        "moduleResolution": "node",
+        "rootDir": ".",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ],
+            "@src/*": [
+                "src/*"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@img/*": [
+                "assets/img/*"
+            ],
+            "@scss/*": [
+                "assets/scss/*"
+            ],
+        }
+    }
+}
